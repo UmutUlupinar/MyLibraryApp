@@ -1,0 +1,12 @@
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\bin\Debug\net6.0\Book.Data.deps.json
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\bin\Debug\net6.0\Book.Data.dll
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\bin\Debug\net6.0\Book.Data.pdb
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\Book.Data.csproj.AssemblyReference.cache
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\Book.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\Book.Data.AssemblyInfoInputs.cache
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\Book.Data.AssemblyInfo.cs
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\Book.Data.csproj.CoreCompileInputs.cache
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\Book.Data.dll
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\refint\Book.Data.dll
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\Book.Data.pdb
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Data\obj\Debug\net6.0\ref\Book.Data.dll
