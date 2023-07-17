@@ -1,8 +1,8 @@
 ﻿namespace Book.Data.Entities;
 
-public class Checkouts
+public class Checkouts : BaseEntity
 {
-    public DateTime LoanDate { get; set; }
     public Guid UserId{ get; set; }
     public Guid BookId { get; set; }
+    public DateTime DueDate { get; set; }
 }
