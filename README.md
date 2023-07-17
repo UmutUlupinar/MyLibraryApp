@@ -8,13 +8,13 @@
  Projects will be API, MVC, Test. Microservice developed by Docker.
 
    STEPS;
- Create projects API and MVC.
- Create Tiers for projects.
+ +Create projects API and MVC. 
+ +Create Tiers for projects. 
+  Code entities and enums.
  Configure connection that between SQL and API.
  Configure connection that between MVC and API.
  Create dockerfile. And configure containers.
  Create basic request at API and send response to home page.
- Code entities and enums.
  Code entity configuration classes.
  Migrate tables to database.
  Code repository classes with repository pattern.
