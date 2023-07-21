@@ -10,10 +10,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<Context>(opt =>
 {
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("SqlConStr"), sqlServerOptionsAction: sqlOptions =>
-    {
-        sqlOptions.EnableRetryOnFailure();
-    });
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("SqlConStr"),b=>b.MigrationsAssembly("Book.API"));
 });
 
 builder.Services.AddEndpointsApiExplorer();
