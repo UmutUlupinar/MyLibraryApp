@@ -11,6 +11,7 @@ public class UserSeed :IEntityTypeConfiguration<User>
     {
         builder.HasData(new User
             {
+                Id = new Guid(),
                 Name = "Admin",
                 UserType = UserType.Admin,
                 CreatedDate = DateTime.Now,
@@ -18,6 +19,7 @@ public class UserSeed :IEntityTypeConfiguration<User>
             },
             new User
             {
+                Id = new Guid(),
                 Name = "umutulupinar",
                 UserType = UserType.User,
                 CreatedDate = DateTime.Now,
