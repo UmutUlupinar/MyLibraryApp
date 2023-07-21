@@ -1,8 +1,15 @@
 ﻿namespace Book.Data.Entities;
 
-public class Checkouts : BaseEntity
+public partial class Checkouts : BaseEntity
 {
     public Guid UserId{ get; set; }
     public Guid BookId { get; set; }
     public DateTime DueDate { get; set; }
+    
+}
+
+public partial class Checkouts
+{
+    public User User { get; set; }
+    public Book Book { get; set; }
 }

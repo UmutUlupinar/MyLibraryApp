@@ -10,13 +10,14 @@
    STEPS;
  +Create projects API and MVC. 
  +Create Tiers for projects. 
-  Code entities and enums.
+ +Code entities and enums.
+ +Code entity configuration classes. 
  Configure connection that between SQL and API.
+ Migrate tables to database.
  Configure connection that between MVC and API.
  Create dockerfile. And configure containers.
  Create basic request at API and send response to home page.
- Code entity configuration classes.
- Migrate tables to database.
+ 
  Code repository classes with repository pattern.
  Code common methods to base repository.
  Code JWT structure.
@@ -26,4 +27,4 @@
  Code Frontend page.
  Create models for Request and Responses.
  Code request response methods.
- Send data with viewbag taht using at controller actions.
+ Send data with viewbag that using at controller actions.
