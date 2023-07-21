@@ -10,7 +10,7 @@ public class BookSeed : IEntityTypeConfiguration<Data.Entities.Book>
     {
         builder.HasData(new Data.Entities.Book
             {
-                Id = new Guid(),
+                Id = Guid.NewGuid(),
                 Name = "Cemile",
                 CreatedDate = DateTime.Now,
                 CategoryType = CategoryType.Story,
@@ -18,7 +18,7 @@ public class BookSeed : IEntityTypeConfiguration<Data.Entities.Book>
             },
             new Data.Entities.Book
             {
-                Id = new Guid(),
+                Id = Guid.NewGuid(),
                 Name = "Toprak Ana",
                 CreatedDate = DateTime.Now,
                 CategoryType = CategoryType.Story,
@@ -26,7 +26,7 @@ public class BookSeed : IEntityTypeConfiguration<Data.Entities.Book>
             },
             new Data.Entities.Book
             {
-                Id = new Guid(),
+                Id = Guid.NewGuid(),
                 Name = "Puslu Kıtalar Atlası",
                 CreatedDate = DateTime.Now,
                 CategoryType = CategoryType.Novel,
@@ -34,7 +34,7 @@ public class BookSeed : IEntityTypeConfiguration<Data.Entities.Book>
             },
             new Data.Entities.Book
             {
-                Id = new Guid(),
+                Id = Guid.NewGuid(),
                 Name = "Tahıla Karsı",
                 CreatedDate = DateTime.Now,
                 CategoryType = CategoryType.Sociology,
