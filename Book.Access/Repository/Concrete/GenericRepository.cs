@@ -1,5 +1,6 @@
 ﻿using System.Linq.Expressions;
 using Book.Access.Repository.Abstract;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Book.Access.Repository.Concrete;
 
@@ -17,28 +18,20 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         return await _context.FindAsync<T>(id);
     }
 
-    public Task AddAsync(T entity)
+    public async Task<EntityEntry<T>> AddAsync(T entity)
     {
-        throw new NotImplementedException();
+        return await _context.AddAsync<T>(entity);
     }
 
-    public T Update(T entity)
+    public EntityEntry<T> Update(T entity)
     {
-        throw new NotImplementedException();
+        return _context.Update<T>(entity);
     }
 
-    public void Remove(T entity)
+    public EntityEntry<T> Remove(T entity)
     {
-        throw new NotImplementedException();
+        return _context.Remove<T>(entity);
     }
-
-    public Task<IEnumerable<T>> Where(Expression<Func<T, bool>> predicate)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<T> SingleOrDefaultAsync(Expression<Func<T, bool>> predicate)
-    {
-        throw new NotImplementedException();
-    }
+    
+    
 }
