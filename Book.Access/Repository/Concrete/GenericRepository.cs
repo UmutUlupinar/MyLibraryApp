@@ -1,5 +1,6 @@
 ﻿using System.Linq.Expressions;
 using Book.Access.Repository.Abstract;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Book.Access.Repository.Concrete;
@@ -7,10 +8,12 @@ namespace Book.Access.Repository.Concrete;
 public class GenericRepository<T> : IGenericRepository<T> where T : class
 {
     private readonly Context _context;
+    private readonly DbSet<T> _dbContext;
 
     public GenericRepository(Context context)
     {
         _context = context;
+        _dbContext = context.Set<T>();
     }
     
     public async Task<T> GetByIdAsync(Guid id)
@@ -32,6 +35,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         return _context.Remove<T>(entity);
     }
-    
-    
+
+    public async Task<IEnumerable<T>> Where(Expression<Func<T, bool>> predicate)
+    {
+        return await _dbContext.Where(predicate).ToListAsync();
+    }
 }
