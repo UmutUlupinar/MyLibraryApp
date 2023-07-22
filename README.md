@@ -12,14 +12,17 @@
  +Create Tiers for projects. 
  +Code entities and enums.
  +Code entity configuration classes. 
- Configure connection that between SQL and API.
- Migrate tables to database.
- Configure connection that between MVC and API.
- Create dockerfile. And configure containers.
- Create basic request at API and send response to home page.
- 
+ +Configure connection that between SQL and API.
+ +Migrate tables to database. 
  Code repository classes with repository pattern.
  Code common methods to base repository.
+ Create basic request at API.
+ Configure connection that between MVC and API.
+ Take response from API basic action.
+ Create dockerfile. And configure containers.
+ 
+ 
+
  Code JWT structure.
  Code services that take methods form repository class.
  Code controller methods (CRUD)
