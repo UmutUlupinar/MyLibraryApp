@@ -1,21 +1,25 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MyLibrary.MVC.Models;
+using MyLibrary.MVC.Services;
 
 namespace MyLibrary.MVC.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IBookServices _bookServices;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger,IBookServices bookServices)
     {
         _logger = logger;
+        _bookServices = bookServices;
     }
 
     public IActionResult Index()
     {
-        return View();
+        var books = _bookServices.GetAllBooks();
+        return View(books);
     }
 
     public IActionResult Privacy()
