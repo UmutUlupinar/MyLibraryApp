@@ -1,4 +1,5 @@
 using Book.Access;
+using Book.API.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,8 @@ builder.Services.AddDbContext<Context>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("SqlConStr"),b=>b.MigrationsAssembly("Book.API"));
 });
 
+builder.Services.AddRepositories();
+builder.Services.AddServices();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

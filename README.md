@@ -16,7 +16,7 @@
  +Migrate tables to database. 
  +Code repository classes with repository pattern.
  +Code common methods to base repository.
- Create basic request at API.
+ +Create basic request at API.
  Configure connection that between MVC and API.
  Take response from API basic action.
  Create dockerfile. And configure containers.

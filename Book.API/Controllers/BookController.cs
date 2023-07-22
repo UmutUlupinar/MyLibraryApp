@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Book.API.Controllers;
 
+[Route("api/[controller]")]
+[ApiController]
 public class BookController : Controller
 {
     private readonly IBookService _bookService;
