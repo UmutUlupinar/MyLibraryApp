@@ -14,8 +14,8 @@
  +Code entity configuration classes. 
  +Configure connection that between SQL and API.
  +Migrate tables to database. 
- Code repository classes with repository pattern.
- Code common methods to base repository.
+ +Code repository classes with repository pattern.
+ +Code common methods to base repository.
  Create basic request at API.
  Configure connection that between MVC and API.
  Take response from API basic action.
