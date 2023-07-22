@@ -1,7 +1,12 @@
+using MyLibrary.MVC.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IBookServices,BookServices>();
+builder.Services.AddScoped<ISendApiRequestService, SendApiRequestService>();
 
 var app = builder.Build();
 

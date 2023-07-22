@@ -17,11 +17,9 @@
  +Code repository classes with repository pattern.
  +Code common methods to base repository.
  +Create basic request at API.
- Configure connection that between MVC and API.
- Take response from API basic action.
+ +Configure connection that between MVC and API.
+ +Take response from API basic action.
  Create dockerfile. And configure containers.
- 
- 
 
  Code JWT structure.
  Code services that take methods form repository class.
