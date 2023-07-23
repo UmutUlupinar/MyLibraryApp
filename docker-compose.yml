@@ -1,0 +1,19 @@
+version: '3'
+services:
+  ms-sql-server:
+    image: mcr.microsoft.com/mssql/server:2019
+    environment:
+      ACCEPT_EULA:
+      SA_PASSWORD:
+      MSSQL_PID:
+    ports:
+      - "1433:1433"
+  book-api:
+    build: .
+    ports:
+      - "8080:80"
+  mylibraryapp-web:
+    build: .
+    ports:
+      - "8080:81"
+    
