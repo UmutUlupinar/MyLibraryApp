@@ -4,11 +4,11 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /src
-COPY ["MyLibrary.MVC/MyLibrary.MVC.csproj", "MyLibrary.MVC/"]
+WORKDIR ..
+COPY ["MyLibrary.MVC.csproj", "MyLibrary.MVC/"]
 RUN dotnet restore "MyLibrary.MVC/MyLibrary.MVC.csproj"
 COPY . .
-WORKDIR "/src/MyLibrary.MVC"
+WORKDIR "/MyLibrary.MVC"
 RUN dotnet build "MyLibrary.MVC.csproj" -c Release -o /app/build
 
 FROM build AS publish
