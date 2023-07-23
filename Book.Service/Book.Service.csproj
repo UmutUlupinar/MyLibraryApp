@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Book.Access\Book.Access.csproj" />
       <ProjectReference Include="..\Book.Data\Book.Data.csproj" />
     </ItemGroup>
 

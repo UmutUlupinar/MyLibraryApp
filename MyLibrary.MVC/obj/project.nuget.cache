@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "d+33qYy2eCu2eCw4569jot5XHFQhrcNu3GcpOPELhLexdi1v485p/WaYc7eCsijV57PcsG3F1+Bd1IL4JVjeBA==",
+  "dgSpecHash": "81dl4rQQP9gxhc0NO2djN1CZRXungzihyyB4hGZJ/Ol3Vgz29AsTR9yjuykaizgGwiVTIDgJY+Dn7KQbG/ZOWw==",
   "success": true,
   "projectFilePath": "C:\\Users\\umutu\\RiderProjects\\MyLibraryApp\\MyLibrary.MVC\\MyLibrary.MVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\umutu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
