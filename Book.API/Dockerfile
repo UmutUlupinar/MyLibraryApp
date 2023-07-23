@@ -4,11 +4,11 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /src
-COPY ["Book.API/Book.API.csproj", "Book.API/"]
+WORKDIR ..
+COPY ["Book.API.csproj", "Book.API/"]
 RUN dotnet restore "Book.API/Book.API.csproj"
 COPY . .
-WORKDIR "/src/Book.API"
+WORKDIR "/Book.API"
 RUN dotnet build "Book.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
