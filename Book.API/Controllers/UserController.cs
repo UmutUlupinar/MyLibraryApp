@@ -10,7 +10,7 @@ namespace Book.API.Controllers;
 [Route("[controller]/[action]")]
 public class UserController : ControllerBase
 {
-    private IUserService _userService;
+    private readonly IUserService _userService;
     public UserController(IUserService userService)
     {
         _userService = userService;
@@ -20,7 +20,7 @@ public class UserController : ControllerBase
     [HttpPost("authenticate")]
     public IActionResult Authenticate([FromBody]User userParam)
     {
-        var user = _userService.Authenticate(userParam.KullaniciAdi, userParam.Sifre);
+        var user = _userService.Authenticate(userParam.Name, userParam.Password);
         if (user == null)
             return BadRequest(new { message = "Kullanici veya şifre hatalı!" });
         return Ok(user);
