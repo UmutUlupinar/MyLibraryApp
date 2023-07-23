@@ -40,4 +40,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         return await _dbContext.Where(predicate).ToListAsync();
     }
+    
+    public Task<T> SingleOrDefaultAsync(Expression<Func<T, bool>> predicate)
+    {
+        return _dbContext.SingleOrDefaultAsync(predicate);
+    }
 }

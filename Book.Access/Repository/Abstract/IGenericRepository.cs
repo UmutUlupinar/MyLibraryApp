@@ -11,6 +11,7 @@ public interface IGenericRepository<T> where T : class
     EntityEntry<T> Update(T entity);
     EntityEntry<T> Remove(T entity);
     Task<IEnumerable<T>> Where(Expression<Func<T, bool>> predicate);
+    Task<T> SingleOrDefaultAsync(Expression<Func<T, bool>> predicate);
 
 
 }
