@@ -11,5 +11,6 @@ public class UserEntityConfiguration : IEntityTypeConfiguration<User>
         builder.HasKey(s => s.Id);
         builder.Property(s => s.Name).IsRequired();
         builder.Property(s => s.UserType).IsRequired();
+        builder.Property(s => s.Password).IsRequired();
     }
 }

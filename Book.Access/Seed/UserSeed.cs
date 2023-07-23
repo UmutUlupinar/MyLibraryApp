@@ -14,16 +14,20 @@ public class UserSeed :IEntityTypeConfiguration<User>
                 Id = Guid.NewGuid(),
                 Name = "Admin",
                 UserType = UserType.Admin,
+                Password = "1234",
                 CreatedDate = DateTime.Now,
-                SignUpDate = DateTime.Now
+                SignUpDate = DateTime.Now,
+                Token = ""
             },
             new User
             {
-                Id = Guid.NewGuid(),
+                Id = Guid.NewGuid(),  
                 Name = "umutulupinar",
                 UserType = UserType.User,
+                Password = "1234",
                 CreatedDate = DateTime.Now,
-                SignUpDate = DateTime.Now
+                SignUpDate = DateTime.Now,
+                Token = ""
             }
         );
     }
