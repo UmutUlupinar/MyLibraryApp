@@ -11,6 +11,7 @@ public class CheckoutsEntityConfiguration : IEntityTypeConfiguration<Checkouts>
         builder.HasKey(s => s.Id);
         builder.Property(s => s.BookId).IsRequired();
         builder.Property(s => s.UserId).IsRequired();
+        builder.Property(s => s.IsActive).IsRequired();
         builder.ToTable("Checkouts");
 
         builder.HasOne(x => x.User)
