@@ -6,8 +6,8 @@ namespace Book.Service.Checkouts;
 public interface ICheckoutsService
 {
     Task<List<Data.Entities.Checkouts>> GetAllCheckouts();
-    Task<List<Data.Entities.Checkouts>> GetUserCheckouts();
-    Task<EntityEntry<Data.Entities.Checkouts>> AddCheckout(Data.Entities.Book book);
+    Task<List<Data.Entities.Checkouts>> GetUserCheckouts(Guid UserId);
+    Task<EntityEntry<Data.Entities.Checkouts>> AddCheckout(AddCheckoutRequestModel model);
     void DeleteCheckout(Guid Id);
-    Task<Data.Entities.Checkouts> UpdateCheckout(UpdateBookRequestModel book);
+    EntityEntry<Data.Entities.Checkouts> UpdateCheckout(UpdateCheckoutRequestModel checkoutModel);
 }
