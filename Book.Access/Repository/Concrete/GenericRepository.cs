@@ -30,7 +30,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public EntityEntry<T> Update(T entity)
     {
-        return _context.Update<T>(entity);
+        var result = _context.Update<T>(entity);
+        _context.SaveChanges();
+        return result;
     }
 
     public EntityEntry<T> Remove(T entity)
@@ -47,4 +49,5 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         return _dbContext.SingleOrDefaultAsync(predicate);
     }
+    
 }

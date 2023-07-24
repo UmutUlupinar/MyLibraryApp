@@ -14,10 +14,18 @@ public class BookController : Controller
     {
         _bookService = bookService;
     }
-    
+    /// <summary>
+    /// this action is for listing books
+    /// </summary>
+    /// <returns></returns>
     [HttpGet]
     public async Task<List<Data.Entities.Book>> GetAllBooks()=> await _bookService.GetAllBooks();
-
+    
+    /// <summary>
+    /// this method is for adding new book
+    /// </summary>
+    /// <param name="bookRequestModel"></param>
+    /// <returns></returns>
     [HttpPost]
     public async Task<Data.Entities.Book> AddBook(AddBookRequestModel bookRequestModel)
     {
@@ -31,4 +39,21 @@ public class BookController : Controller
         return _bookService.AddBook(request).Result.Entity;
     }
     
+    /// <summary>
+    /// this action convert bookd Isdeleted prop to true
+    /// </summary>
+    /// <param name="Id"></param>
+    [HttpPost]
+    public async void DeleteBook(Guid Id) => _bookService.DeleteBook(Id);
+
+        /// <summary>
+    /// this action provides to change name and categories of books.
+    /// </summary>
+    /// <param name="updateBook"></param>
+    /// <returns></returns>
+    [HttpPost]
+    public async Task<Data.Entities.Book> UpdateBook(UpdateBookRequestModel updateBook)
+    {
+        return _bookService.UpdateBook(updateBook).Result;
+    }
 }
