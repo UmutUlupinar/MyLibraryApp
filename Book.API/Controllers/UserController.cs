@@ -25,4 +25,6 @@ public class UserController : ControllerBase
             return BadRequest(new { message = "Kullanici veya şifre hatalı!" });
         return Ok(user);
     }
+
+
 }

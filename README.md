@@ -29,10 +29,10 @@
                                                                                                                            
  -Code JWT structure.                                                                                                          
  -UserController coding and login/register page.                                                                                
- Code services that take methods form repository class.                              
- Code controller methods (CRUD)                                      
- Code Home Page within MVC.                                         
- Code Frontend page.                                               
- Create models for Request and Responses.                                 
- Code request response methods.                                         
+ +Code services that take methods form repository class. API                              
+ +Code controller methods (CRUD) API                                      
+ Code Login/Home Page within MVC.                                         
+ Code Frontend pages.                                               
+ Create models for Request and Responses.  MVC                               
+ Code request response methods.   MVC                                      
  Send data with viewbag that using at controller actions.                                                              
