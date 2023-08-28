@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0D8e6DtoGG3VwrcwSD62sRz4iCmLmrd9Tpb0gqah41WYfxyKjkWfuM+eF7yMYl+BZCFtikPIgTRtMwgGrb5Ong==",
+  "dgSpecHash": "YPL6lgbYqz9anL1WyMdbO1nGAGalbXE/Wxm//433BY/GmfR20YdrlvX+i1uE7rigy7yPLJXJT05vD/YmF8nKPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\umutu\\RiderProjects\\MyLibraryApp\\Book.Data\\Book.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

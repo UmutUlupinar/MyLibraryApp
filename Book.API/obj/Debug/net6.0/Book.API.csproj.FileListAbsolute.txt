@@ -86,3 +86,8 @@ C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\refint\Book.
 C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\Book.API.pdb
 C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\Book.API.genruntimeconfig.cache
 C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\ref\Book.API.dll
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\staticwebassets\msbuild.Book.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Book.API.props
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Book.API.props
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Book.API.props
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.API\obj\Debug\net6.0\staticwebassets.pack.json

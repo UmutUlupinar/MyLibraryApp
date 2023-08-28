@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0V3BJ2Im68IrS8N3VVGw5qxIcNH4LQXEtvz6Q+fAZkUem7iX2R4c0XvBJJHSUyZAPpImFUEyCHA4UsHimYvVzw==",
+  "dgSpecHash": "KskQLXErojg3AHwXb3v4/WWNp/cT9rbunHSJ3CIju2pChu48rT1874D6L6PqRXSB6cDeOVtzLCI1O/l+JyKwMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\umutu\\RiderProjects\\MyLibraryApp\\Book.Service\\Book.Service.csproj",
   "expectedPackageFiles": [
@@ -57,7 +57,10 @@
     "C:\\Users\\umutu\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\umutu\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\umutu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\umutu\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\umutu\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

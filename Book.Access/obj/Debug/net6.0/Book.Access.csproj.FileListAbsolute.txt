@@ -1,0 +1,15 @@
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\bin\Debug\net6.0\Book.Access.deps.json
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\bin\Debug\net6.0\Book.Access.dll
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\bin\Debug\net6.0\Book.Access.pdb
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\bin\Debug\net6.0\Book.Data.dll
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\bin\Debug\net6.0\Book.Data.pdb
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\Book.Access.csproj.AssemblyReference.cache
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\Book.Access.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\Book.Access.AssemblyInfoInputs.cache
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\Book.Access.AssemblyInfo.cs
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\Book.Access.csproj.CoreCompileInputs.cache
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\Book.Access.csproj.CopyComplete
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\Book.Access.dll
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\refint\Book.Access.dll
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\Book.Access.pdb
+C:\Users\umutu\RiderProjects\MyLibraryApp\Book.Access\obj\Debug\net6.0\ref\Book.Access.dll

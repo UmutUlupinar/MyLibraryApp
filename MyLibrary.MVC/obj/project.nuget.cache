@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "81dl4rQQP9gxhc0NO2djN1CZRXungzihyyB4hGZJ/Ol3Vgz29AsTR9yjuykaizgGwiVTIDgJY+Dn7KQbG/ZOWw==",
+  "dgSpecHash": "sQDjk62xtJhSuMIZxzxmNQ5Hm1OKX3bY2Etuiw0+ytiA0Gc6V5c13Pr6wQfPf4jJuJ4gGh09s2MKeYQs5VjYxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\umutu\\RiderProjects\\MyLibraryApp\\MyLibrary.MVC\\MyLibrary.MVC.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\umutu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\umutu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\umutu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }
